@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url("../menu_button.jpg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url("../close_icon.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right rgb(3, 0, 158) 0%,  rgb(0, 0, 0));
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(2, 0, 117), rgb(3, 0, 158) 0%,  rgb(0, 0, 0));
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 1em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 80%;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 75px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.menu ul li a:hover
+{
+  color: #03ecf4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+img{
+    position: relative;
+    height: auto;
+    width: 35%;
+    filter: drop-shadow(0 0 1rem white);
+    padding-left: 100px;
+}
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPIRON Home</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">IC23 23007</h2>
+      <div class="toggle"></div>
+    </header>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Breaking Free of Data Brokers</h2> 
+      <h3>Harm Caused by Data Brokers?</h3>
+      <p>Data brokers collect and sell personal information without direct consent, and some even use critical applications required for work or school to collect that personal data.</p>
+      <img src="C:\dev\python\projects\IC23\app\static\1.png" alt="data broker image 1">
+      <p></p>
+      <a href="main.html">Abstract</a>
+      <a href="what.html">What are Data Brokers</a>
+      <a href="harm.html">Harm Caused</a>
+      <a href="how.html">How to Opt-out</a>
+      <a href="opt-out-form.html">Initialize Opt-out</a>
+    </div>
+    <!-- <ul class="social">
+      <li><a href="socialsunavailable.html"><img src="discordlogo.png"></a></li>
+      <li><a href="socialsunavailable.html"><img src="twitter.png"></a></li>
+    </ul> -->
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a href="what.html">What are data brokers?</a></li>
+      <li><a href="harm.html">Harm Caused</a></li>
+      <li><a href="how.html">Opt-out Processes</a></li>
+      <li><a href="more.html">More Information</a></li>
+      <li><a href="opt-out-form.html">Opt-out Email</a></li>
+      <!-- <li><a href="features.html">Features</a></li>
+      <li><a href="totallylegitwebpage.html">Not Sus</a></li> -->
+    </ul>
+  </div>
+
+  <script>
+
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+  </script>
+</body>
+</html>
