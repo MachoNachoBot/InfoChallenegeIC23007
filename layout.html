@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 100px  */
+}
+
+/* header .logo
+{
+  font-size: 40px;
+  color: rgb(0, 234, 255);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;  
+  text-shadow: rgb(195, 0, 255) 0px 999999 15px;  
+  text-transform: uppercase;
+  cursor: pointer;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+header .logo {
+  height: 100%;
+	display: grid;
+	background-color: #ffdd40;
+	font-family: "Audiowide", cursive;
+	color: #333;
+
+  --s: 0.1em; 
+  --c: #00eeff;
+  
+  color: rgb(0, 234, 255);
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+header .logo:hover {--_p: 100%}
+
+
+a .logo
+{
+  font-size: 100px;
+  color: rgb(0, 234, 255);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;  
+  text-shadow: rgb(195, 0, 255) 0px 999999 15px;  
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-image: url("app\menu_button.jpg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background-image: url("app\close_icon");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+/* .showcase
+{
+  position: absolute; 
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(2, 0, 117), rgb(3, 0, 158) 0%,  rgb(0, 0, 0));
+  transition: 0.5s;
+  z-index: 2;
+} */
+.showcase
+{
+  background: linear-gradient(to right, rgb(2, 0, 117), rgb(3, 0, 158) 0%,  rgb(0, 0, 0));
+  z-index: 2;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 100px;
+  width: 100%;
+  right: 0;
+}
+
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("background.jpg"); */
+  /* background: linear-gradient(to right, rgb(2, 0, 117), rgb(3, 0, 158) 0%,  rgb(0, 0, 0));  */
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+.text h1
+{
+  font-size: 3em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+.text h2
+{
+  font-size: 1em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  background: linear-gradient(to right, #5500ff, hsl(239, 100%, 21%), #000000);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.menu ul li a:hover
+{
+  color: #03ecf4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+/* Code I got from https://codepen.io/lyon-etyo/pen/OJmyMGd */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #7f7fd5;
+  background: linear-gradient(to right, rgb(2, 0, 117), rgb(3, 0, 158) 0%,  rgb(0, 0, 0));
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+  bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(5rem, calc(150rem + 250vw), 400rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+}
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 1000px;
+}
+
+.user__info > small {
+  color: #666;
+}
+
+
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P-TECH 2023 Blog Home</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <a class="logo" href="home.html">P-TECH 2023 Blog</a>
+      <div class="toggle">
+
+
+
+      </div>
+    </header>
+    <video src="spironlogoanimation.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+
+    {% block content %}
+    <div class="text">
+      <h2>Author and Date</h2> 
+      <h3>Title< /h3>
+      <p>This is how the content will look</p>
+      <a href="downloadlink.html">Download Link</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="socialsunavailable.html"><img src="discordlogo.png"></a></li>
+      <li><a href="socialsunavailable.html"><img src="twitter.png"></a></li>
+    </ul>
+    {% endblock content%}
+
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="downloadlink.html">Download Link</a></li>
+      <li><a href="documentation.html">Documentation</a></li>
+      <li><a href="troubleshooting.html">Troubleshooting</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="teaminfo.html">Team Information</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="totallylegitwebpage.html">Not Sus</a></li>
+    </ul>
+  </div>
+
+  <script>
+
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+  </script>
+</body>
+</html>
