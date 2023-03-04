@@ -1,0 +1,94 @@
+2023-02-27 01:02:59,394 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:02:59,398 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:03:43,089 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:03:43,569 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:03:43,575 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:04:17,365 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-27 01:04:17,366 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-27 01:04:17,367 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:04:17,774 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:04:17,777 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:05:05,321 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:05:05] "[33mGET / HTTP/1.1[0m" 404 -
+2023-02-27 01:05:31,618 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:05:31] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:12:13,772 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\run.py', reloading
+2023-02-27 01:12:13,817 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:12:38,690 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:12:39,071 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:12:39,075 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:12:47,955 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-27 01:12:47,956 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-27 01:12:47,957 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:12:48,289 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:12:48,293 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:13:15,779 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:13:15] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:14:24,987 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:14:25,035 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:14:25,372 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:14:25,375 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:14:32,611 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:14:32] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:14:34,539 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:14:34] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:14:56,961 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:14:56] "[33mGET / HTTP/1.1[0m" 404 -
+2023-02-27 01:15:55,952 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:15:56,002 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:15:56,323 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:15:56,326 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:16:00,741 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:16:00] "[33mGET / HTTP/1.1[0m" 404 -
+2023-02-27 01:16:04,132 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:16:04] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:16:36,001 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:16:36,048 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:16:36,382 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:16:36,386 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:16:37,428 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:16:37,477 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:16:37,818 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:16:37,821 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:16:45,195 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:16:45] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:17:31,771 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:17:31,819 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:17:32,151 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:17:32,155 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:17:35,106 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:17:35] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:32:16,395 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:32:16,444 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:32:16,813 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:32:16,817 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:35:11,663 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:35:11,719 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:35:12,046 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:35:12,049 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:35:15,142 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:35:15,212 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:35:15,614 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:35:15,620 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:35:25,281 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-27 01:35:25,282 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-27 01:35:25,284 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:35:25,603 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:35:25,607 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:35:43,854 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:35:43] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:37:24,235 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:37:24] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:37:25,706 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:37:25] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:38:48,772 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [27/Feb/2023 01:38:48] "[33mGET /home HTTP/1.1[0m" 404 -
+2023-02-27 01:40:56,960 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\run.py', reloading
+2023-02-27 01:40:57,012 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:40:57,358 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:40:57,362 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:41:01,459 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\run.py', reloading
+2023-02-27 01:41:01,512 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:41:01,889 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:41:01,892 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:41:06,962 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-27 01:41:06,963 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-02-27 01:41:06,964 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:41:07,364 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:41:07,368 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:42:58,212 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\routes.py', reloading
+2023-02-27 01:42:58,259 INFO werkzeug MainThread :  * Restarting with stat
+2023-02-27 01:42:58,598 WARNING werkzeug MainThread :  * Debugger is active!
+2023-02-27 01:42:58,602 INFO werkzeug MainThread :  * Debugger PIN: 120-009-622
+2023-02-27 01:43:03,704 INFO werkzeug MainThread :  * Detected change in 'C:\\dev\\python-projects\\IC23_Website\\app\\run.py', reloading
+2023-02-27 01:43:03,767 INFO werkzeug MainThread :  * Restarting with stat
